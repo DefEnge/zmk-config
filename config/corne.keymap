@@ -301,11 +301,11 @@ macros {
         Lower {
             bindings = <
 //  ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮            
-        &kp ESC     &mkp LCLK      &mmv MOVE_UP   &mkp RCLK       &msc SCRL_UP    &kp T       &kp IT_PLUS   &kp NIT_MINUS &kp IT_EQUAL    &kp IT_FSLH   &kp IT_STAR    &bspc_del
+        &kp ESC     &mkp LCLK      &mmv MOVE_UP   &mkp RCLK       &msc SCRL_UP    &kp T       &kp IT_PLUS   &kp IT_MINUS &kp IT_EQUAL    &kp IT_FSLH   &kp IT_STAR    &bspc_del
 //  ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &mt LCTRL  &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &msc SCRL_DOWN  &kp G            &kp LEFT         &kp DOWN        &kp UP      &kp RIGHT        &none        &none
+    &mt LCTRL  &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &msc SCRL_DOWN  &kp G            &kp LEFT         &kp DOWN        &kp UP      &kp RIGHT        &none        &N9
 //  ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp LSHIFT       &msc SCRL_LEFT &kp X      &msc SCRL_RIGHT     &kp N1      &kp N2          &kp N3       &kp N4         &kp N5     &kp IT_PLUS   &kp COMMA       &none
+    &kp LSHIFT       &msc SCRL_LEFT &kp X      &msc SCRL_RIGHT     &kp N1      &kp N2          &kp N3       &kp N4         &kp N5     &kp N6         &kp N7         &N8
 //  ╰─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────╯
                                                     &tdw         &trans       &kp SPACE          &kp RET       &kp N0        &kp DOT
 //                                            ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
